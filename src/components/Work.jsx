@@ -1,8 +1,11 @@
 import ProjectCard from './ProjectCard';
+import project1 from './../assets/projects/project-1.png';
+import project2 from './../assets/projects/project-2.png';
+import project3 from './../assets/projects/project-3.png';
 
 const works = [
     {
-      imgSrc: '/src/assets/projects/project-1.png',
+      imgSrc: project1,
       title: 'Invoice Management Dashboard',
       tags: ['Fullstack', 'Next.js'],
       projectLinks: {
@@ -11,7 +14,7 @@ const works = [
       }
     },
     {
-      imgSrc: '/src/assets/projects/project-2.png',
+      imgSrc: project2,
       title: 'Smart Pitch Startup Platform',
       tags: ['Fullstack', 'Next.js'],
       projectLinks: {
@@ -20,7 +23,7 @@ const works = [
       }
     },
     {
-      imgSrc: '/src/assets/projects/project-3.png',
+      imgSrc: project3,
       title: 'Travel Booking & Adventure Hub',
       tags: ['Frontend', 'React.js'],
       projectLinks: {
