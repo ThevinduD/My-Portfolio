@@ -16,7 +16,8 @@
     "locomotive-scroll": "^4.1.4",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

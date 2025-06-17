@@ -8,6 +8,7 @@ import Review from "./components/Review"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
+import { Helmet } from "react-helmet";
 import { ReactLenis } from 'lenis/react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -38,6 +39,12 @@ function App() {
 
   return (
     <ReactLenis root>
+      <Helmet>
+        <title>Thevindu Dehigaspitiya | Fullstack Developer</title>
+        <meta name="description" content="Fullstack Developer portfolio of Thevindu Dehigaspitiya. Projects, skills, and contact info." />
+        <meta name="keywords" content="Frontend Developer, Fullstack Developer, Front-end, JavaScript, TypeScript, Portfolio, Thevindu, Sri Lanka" />
+        <meta name="author" content="Thevindu Dehigaspitiya" />
+      </Helmet>
       <Header/>
       <main>
         <Hero/>

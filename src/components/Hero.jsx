@@ -1,6 +1,8 @@
-import hero from './../assets/Thevindu2.png';
+import hero from './../assets/Thevindu2.webp';
 import { ButtonPrimary, ButtonOutline } from './Button';
 import smallImg from './../assets/smallimg.jpg';
+import cv from './../assets/Thevindu_Dehigaspitiya_CV.pdf';
+
 const Hero = () => { 
   return (
     <section
@@ -41,10 +43,12 @@ const Hero = () => {
                 </h2>
 
                 <div className='flex items-center gap-3'>
-                    <ButtonPrimary
-                        label="Download CV"
-                        icon="download"
-                    />
+                    <a href={cv} download="Thevindu_Dehigaspitiya_CV.pdf">
+                        <ButtonPrimary
+                            label="Download CV"
+                            icon="download"
+                        />
+                    </a>
                     <ButtonOutline
                         href="#about"
                         label="Scroll down"
