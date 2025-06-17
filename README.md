@@ -1,3 +1,3 @@
-# Personal Portfolio
+## Personal Portfolio
 
 That's all :)
