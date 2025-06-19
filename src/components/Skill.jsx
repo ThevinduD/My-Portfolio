@@ -8,6 +8,8 @@ import tailwindcss from '/src/assets/skillTree/tailwindcss.svg'
 import vscode from '/src/assets/skillTree/vscode.svg'
 import postgresql from './../assets/skillTree/postgresql.png';
 import nextjs from '/src/assets/skillTree/nextjs.svg'
+import nodejs from './../assets/skillTree/node2.png';
+import expressjs from './../assets/skillTree/expressjs.png';
 import SkillCard from './SkillCard'
 
 const skillItem = [
@@ -17,6 +19,11 @@ const skillItem = [
       desc: 'Full-Stack Framework'
     },
     {
+      imgSrc: nodejs,
+      label: 'Node.JS',
+      desc: 'JavaScript Backend'
+    },
+    {
       imgSrc: react,
       label: 'React',
       desc: 'JavaScript Library'
@@ -24,7 +31,7 @@ const skillItem = [
     {
       imgSrc: tailwindcss,
       label: 'TailwindCSS',
-      desc: 'User Interface'
+      desc: 'Utility-First Framework'
     },
     {
       imgSrc: javascript,
@@ -35,6 +42,11 @@ const skillItem = [
       imgSrc: typescript,
       label: 'TypeScript',
       desc: 'Type-Safety'
+    },
+    {
+      imgSrc: expressjs,
+      label: 'Express',
+      desc: 'Backend Framework'
     },
     {
       imgSrc: postgresql,
