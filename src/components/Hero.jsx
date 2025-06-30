@@ -1,7 +1,7 @@
 import hero from './../assets/Thevindu2.webp';
 import { ButtonPrimary, ButtonOutline } from './Button';
 import smallImg from './../assets/smallimg.jpg';
-import cv from './../assets/Thevindu_Dehigaspitiya_CV.pdf';
+import cv from './../assets/Thevindu-Dehigaspitiya-FullStack-Developer.pdf';
 
 const Hero = () => { 
   return (
