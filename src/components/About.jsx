@@ -36,7 +36,7 @@ const About = () => {
         <div className='container'>
             <div className='bg-zinc-800/50 p-7 md:p-12 rounded-2xl reveal-up'>
                 <p className='text-zinc-300 leading-6 mb-4 md:mb-8 md:max-w-[70ch]'>
-                Welcome! I'm Thevindu, a passionate full-stack developer who loves turning creative ideas into clean, responsive, and high-performing websites. I've got a sharp eye for detail, a drive to keep learning, and a commitment to writing clean, maintainable code. With technologies like Next.js, Node.js, TypeScript and many more in my toolkit, I focus on building scalable website that not only look stunning but also deliver a smooth user experience.
+                Welcome! I'm Thevindu, a passionate full-stack developer who loves turning creative ideas into clean, responsive, and high-performing websites. I've got a sharp eye for detail, a drive to keep learning, and a commitment to writing clean, maintainable code. With technologies like Next.js, Node.js, TypeScript and many more in my toolkit, I focus on building scalable website that not only look stunning but also deliver a smooth user experience while leveraging generative AI to boost productivity, enhance development workflows, and build intelligent applications.
                 <br /><br /> Let's build something awesome.!
                 </p>
                 

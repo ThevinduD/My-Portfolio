@@ -2,6 +2,7 @@ import ProjectCard from './ProjectCard';
 import project1 from './../assets/projects/project-1.png';
 import project2 from './../assets/projects/project-2.png';
 import project3 from './../assets/projects/project-3.png';
+import projectX from './../assets/projects/project-X.png';
 
 const works = [
     {
@@ -11,6 +12,15 @@ const works = [
       projectLinks: {
         github: 'https://github.com/ThevinduD/NextJS-Dashboard',
         website: 'https://next-js-dashboard-three-pink.vercel.app/'
+      }
+    },
+    {
+      imgSrc: projectX,
+      title: 'AI-Powered Resume Analyzer',
+      tags: ['Fullstack', 'React.js'],
+      projectLinks: {
+        github: 'https://github.com/ThevinduD/AI-Resume-Analyzer',
+        website: 'https://ai-resume-analyzer-lemon.vercel.app/'
       }
     },
     {

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
         id='home'
-        className='pt-[105px]'
+        className='pt-[100px]'
     >
         <div className='container lg:grid lg:grid-cols-2 items-center lg:gap-10'>
 
@@ -38,9 +38,12 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
+                <h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5'>
                     Building Scalable Modern Websites for the Future
                 </h2>
+                <p className='mt-1 text-lg mb-8 lg:mb-10 ml-[1px] text-zinc-400'>
+                    Full Stack Developer | AI Enthusiast
+                </p>
 
                 <div className='flex items-center gap-3'>
                     <a href={cv} download="Thevindu_Dehigaspitiya_CV.pdf">
